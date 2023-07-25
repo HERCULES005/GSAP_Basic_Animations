@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+#nav{
+    /* background: red; */
+    height: 100px;  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    padding: 10px 30px; 
+
+}
+#nav2{
+    display: flex;
+    gap: 40px;
+}
+#nav3{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+#nav3 button{
+    padding: 20px 10px;
+    font-weight: 700;
+    background-color: white;
+    align-items: center;
+    border: none;
+    color: black;
+} 
+img{
+    height: 70px;
+    width: 300px;
+    align-items: center;
+    border: none;
+}
+/* ****************************************************************************** */
+#main h1{
+    text-transform: uppercase;
+    font-size: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#main h1 span{
+    font-size: 40px;
+    text-transform: uppercase;
+    border: 2px solid green;
+    padding: 40px 100px;
+    background-color: black;
+    margin: 10px 30px;
+    border-radius: 100px;
+}
+#main h1 span:hover{
+    background-color: green;
+}
+#main h1:nth-child(2){  
+    margin: 20px;
+    /* color: rgb(0, 255, 0); */
+}
+#main h1:nth-child(3){
+    margin: 20px;
+    /* color: rgb(0, 47, 255); */
+}
+#main h1:nth-child(4){
+    margin: 20px;
+    /* color: red; */
+}
+#left-img{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 14%;
+    border-radius: 20px;
+    left: 2%;
+    z-index: 2;
+}
+#right-img{
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    bottom: 3%;
+    border-radius: 20px;
+    right: 2%;
+    z-index: 2;
+}
+h5{
+    position: absolute;
+    bottom: 10%;
+    left: 44%;
+    /* transform: translate(-30%,0); */
+}
+
