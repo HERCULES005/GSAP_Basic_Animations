@@ -45,7 +45,8 @@ html,body{
     color: black;
     border-radius: 10px;
 } 
-#nav3 button:hover{
+#nav3 button:hover
+{   cursor: pointer;
     background-color: black;
     color: white;
     border: 2px solid green;
@@ -74,7 +75,8 @@ img{
     margin: 10px 30px;
     border-radius: 100px;
 }
-#main h1 span:hover{
+#main h1 span:hover
+{   cursor: pointer;
     background-color: green;
 }
 #main h1:nth-child(2){  
